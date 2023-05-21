@@ -1,0 +1,10 @@
+[package]
+name = "egui-search-window"
+version = "0.1.0"
+edition = "2021"
+license = "0BSD"
+
+[dependencies]
+egui        = { version = "0.21.0", default-features = false }
+egui_extras = { version = "0.21.0", default-features = false }
+fuzzy       = { git = "https://github.com/museun/fuzzy", rev = "d0f1dad45f656c1361683d9e554ae178f218a398" }
